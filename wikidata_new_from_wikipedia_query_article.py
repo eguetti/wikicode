@@ -396,6 +396,7 @@ for prefix in wikipedias:
 					claim = pywikibot.Claim(repo,'P31')
 					claim.setTarget(pywikibot.ItemPage(repo, 'Q101352')) # Surname
 					new_item.addClaim(claim, summary='Surname')
+					
 
 
 
